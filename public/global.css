@@ -1,0 +1,44 @@
+@font-face {
+	font-family: space-grotesk;
+	src: url(assets/fonts/SpaceGrotesk-Regular.ttf);
+	font-weight: regular;
+}
+
+@font-face {
+	font-family: space-grotesk;
+	src: url(assets/fonts/SpaceGrotesk-Medium.ttf);
+	font-weight: medium;
+}
+
+@font-face {
+	font-family: space-grotesk;
+	src: url(assets/fonts/SpaceGrotesk-Bold.ttf);
+	font-weight: bold;
+}
+
+body {
+	margin: 0;
+	font-family: space-grotesk, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+label,
+.input-group p {
+	width: 128px;
+	font-size: 14px;
+	display: inline-block;
+}
+
+.input-group:not(:first-child) {
+	margin-top: 16px;
+}
+
+input {
+	width: 100%;
+	outline: none;
+	border: 0px;
+	padding: 0;
+}
